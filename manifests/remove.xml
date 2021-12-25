@@ -68,7 +68,4 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
 
-  <!-- Vendor (QCOM) -->
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-
 </manifest>
