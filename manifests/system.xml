@@ -96,7 +96,6 @@
   <project name="platform/external/androidplot" path="external/androidplot"/>
   <project name="platform/external/angle" path="external/angle"/>
   <project name="platform/external/ant-glob" path="external/ant-glob"/>
-  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl"/>
   <project name="platform/external/antlr" path="external/antlr"/>
   <project name="platform/external/apache-commons-bcel" path="external/apache-commons-bcel"/>
   <project name="platform/external/apache-commons-compress" path="external/apache-commons-compress"/>
@@ -155,7 +154,6 @@
   <project name="platform/external/drrickorang" path="external/drrickorang"/>
   <project name="platform/external/dtc" path="external/dtc"/>
   <project name="platform/external/dynamic_depth" path="external/dynamic_depth"/>
-  <project name="platform/external/e2fsprogs" path="external/e2fsprogs"/>
   <project name="platform/external/easymock" path="external/easymock"/>
   <project name="platform/external/eigen" path="external/eigen"/>
   <project name="platform/external/elfutils" path="external/elfutils"/>
@@ -166,7 +164,6 @@
   <project name="platform/external/ethtool" path="external/ethtool"/>
   <project name="platform/external/exoplayer" path="external/exoplayer"/>
   <project name="platform/external/expat" path="external/expat"/>
-  <project name="platform/external/f2fs-tools" path="external/f2fs-tools"/>
   <project name="platform/external/fastrpc" path="external/fastrpc"/>
   <project name="platform/external/fdlibm" path="external/fdlibm"/>
   <project name="platform/external/fec" path="external/fec"/>
@@ -243,7 +240,6 @@
   <project name="platform/external/jline" path="external/jline"/>
   <project name="platform/external/jsilver" path="external/jsilver"/>
   <project name="platform/external/jsmn" path="external/jsmn"/>
-  <project name="platform/external/json-c" path="external/json-c"/>
   <project name="platform/external/jsoncpp" path="external/jsoncpp"/>
   <project name="platform/external/jsr305" path="external/jsr305"/>
   <project name="platform/external/jsr330" path="external/jsr330"/>
@@ -964,12 +960,6 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_qtiSoundRecorder_product.mk" src="app_qtiSoundRecorder_system_product.mk"/>
   </project>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony"/>
-  <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc"/>
-  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci"/>
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks"/>
-  <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc">
-    <linkfile dest="vendor/qcom/defs/product-defs/system/nfc-system-product.mk" src="nfc_system_product.mk"/>
-  </project>
   <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio">
     <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
   </project>
@@ -991,20 +981,6 @@
   </project>
   <project name="platform/vendor/qcom-opensource/core-utils-sys" path="vendor/qcom/opensource/core-utils-sys"/>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw"/>
-  <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices"/>
-  <project name="platform/vendor/qcom-opensource/display-commonsys" path="vendor/qcom/opensource/commonsys/display">
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
-  </project>
-  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display">
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
-  </project>
-  <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm"/>
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm"/>
-  <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces"/>
-  <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth"/>
-  <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt"/>
-  <project name="platform/vendor/qcom/opensource/commonsys-intf/audio" path="vendor/qcom/opensource/commonsys-intf/audio"/>
   <project name="toolchain/llvm-project" path="external/llvm-project"/>
   <project name="toolchain/pgo-profiles"/>
   <project name="tools/platform-compat"/>

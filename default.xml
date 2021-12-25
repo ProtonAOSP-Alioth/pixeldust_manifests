@@ -43,10 +43,10 @@
            revision="refs/heads/12" />
 
   <include name="manifests/system.xml" />
-  <include name="manifests/vendor.xml" />
   <include name="manifests/hardware.xml" />
   <include name="manifests/remove.xml" />
   <include name="manifests/others.xml" />
   <include name="manifests/pixeldust.xml" />
+  <include name="manifests/arrow.xml" />
 
 </manifest>
