@@ -49,7 +49,12 @@
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/thermal" />
 
   <!-- Kernel -->
   <remove-project name="kernel/build" />
@@ -86,13 +91,40 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/qcom" />
   <remove-project name="platform/system/vold" />
 
   <!-- Vendor (QCOM) -->
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+  <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <remove-project name="platform/vendor/nxp/opensource/frameworks" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+  <remove-project name="platform/vendor/nxp/opensource/halimpl" />
+  <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+  <remove-project name="platform/vendor/qcom-opensource/audio" />
+  <remove-project name="platform/vendor/qcom-opensource/audio-hal/st-hal" />
+  <remove-project name="platform/vendor/qcom/opensource/commonsys-intf/audio" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/dpm" />
+  <remove-project name="platform/vendor/qcom-opensource/dpm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
+  <remove-project name="platform/vendor/qcom-opensource/healthd-ext" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+  <remove-project name="platform/vendor/qcom-opensource/mmc-utils" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
+  <remove-project name="platform/vendor/qcom-opensource/thermal-engine" />
+  <remove-project name="platform/vendor/qcom-opensource/time-services" />
+  <remove-project name="platform/vendor/qcom-opensource/tools" />
+  <remove-project name="platform/vendor/qcom-opensource/usb" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+  <remove-project name="platform/vendor/qcom-opensource/wigig" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
 </manifest>
